@@ -1,2 +1,2 @@
-# http://eudora-aline.github.io
+# eudora-aline
 Front-End Test
