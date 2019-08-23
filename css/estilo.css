@@ -1,98 +1,110 @@
+/* ***************************************************** */
+/* DIRETO NAS TAGS E MEDIA QUERYS */
+/* ***************************************************** */
+
+body{
+  height: 3000px;
+  padding-top: 90px;
+}
+
+  @media (max-width: 767px) {
+    #blockquote-pattern .display-4 {
+      font-size: 2.5rem;
+    }
+
+    body {
+      padding-top: 0px;
+    }
+
+    .fixed-top {
+      position: relative;
+    }
+  }
+
+  /* ***************************************************** */
+  /* CLASSES DE ESTILO */
+  /* ***************************************************** */
+
+  .text-blockquote {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .soft-purple {
+    background-color: #EBCFFF;
+  }
+
   .box-adv {
     background-color: rgba(88, 42, 122, 0.5);
     border: 3px solid;
     border-radius: 50px;
     border-style: dashed;
-    /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .50),
-                0 2px 4px 0 rgba(0, 0, 0, .50); */
   }
 
-  .container-lancamento {
-    background-color: #582a7a
-  }
-
-  .frase-lancamento {
-    background-color: rgba(20, 20, 20, 0.5);
-    border-radius: 10px;
-  }
-
-  .redimensionar-icon-vantagens {
+  .size-icon-adv {
     width: 100px;
   }
 
   .font-adv {
     color: #c370ff;
+    font-weight: bold !important;
   }
 
   .base-color-objects {
     background-color: #582a7a;
   }
 
-  .div-for-fill-top {
-    height: 90px;
-    background-color: #582a7a;
+
+  .bg-info-carousel {
+    background-color: rgba(20, 20, 20, 0.5);
+    border-radius: 10px;
   }
 
-  .body-my {
-    /* padding-top: 90px; */
-    height: 3000px;
+  .navbar-color {
+    background-color: #51227e;
+    /* background: url('../img/bg_navbar.jpg') center center;
+    background-size: cover; */
   }
 
-  .div-caption-products {
-    background-color: rgba(20, 20, 20, 0.6);
-    /* background-color: #582a7a; */
-    /* background-color: #343a40; */
-    /* background-color: #c370ff; */
-  }
-
-  .navbar-my {
-    /* background-color: #582a7a; */
-    background-color: rgba(88, 42, 122, 0.5);
-  }
-
-  .navbar-liptint2019 {
-    background-color: #a44871 !important;
-  }
-
-  .navbar-toggler-my {
+  .navbar-toggler-color {
     background-color: #FFF !important;
   }
 
-  .nav-link-my {
+  .nav-link-color {
     color: #FFF !important;
     font-weight: bold !important;
   }
 
-  .my-bold {
-    color: #FFF !important;
-    font-weight: bold !important;
-  }
-
-  .nav-link-my:hover {
+  .nav-link-color:hover {
     color: #000 !important;
   }
 
-  .toggle-icon-bg {
+  .highlighted-bold {
+    color: #FFF !important;
+    font-weight: bold !important;
+    text-shadow: -2px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+  }
+
+  .toggler-bg-color {
     background-color: #FFF;
   }
 
-  .box-shadow-logo {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .50),
-      0 2px 4px 0 rgba(0, 0, 0, .50);
-  }
-
-  .box-shadow-my {
+  .box-shadow {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .50),
       0 2px 8px 0 rgba(0, 0, 0, .50);
   }
 
-  /* .nav .breadcrumb {
-margin: 0 7px;
-} */
-  /* @media (min-width: 768px) {
-    .nav .breadcrumb {
-        float: left;
-        margin: 7px 10px;
-        background-color: #7d3eca !important;
-    }
-} */
+/* ***************************************************** */
+/* IDS DE ESTILO */
+/* ***************************************************** */
+
+  #pattern-lancamento {
+    background: url('../pattern/pattern_lancamento.jpg') center center;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-size: auto;
+  }
+
+  #blockquote-pattern {
+    background: url('../pattern/pattern_blockquote.jpg') center center;
+    background-size: cover;
+  }
